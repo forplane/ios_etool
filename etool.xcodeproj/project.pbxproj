@@ -7,15 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F2FD98F9D71BF9472EB53B4 /* Pods_etool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F20020D73775D5B650268B /* Pods_etool.framework */; };
 		F8B311F11E5D673600AC429A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B311F01E5D673600AC429A /* main.m */; };
 		F8B311F41E5D673600AC429A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B311F31E5D673600AC429A /* AppDelegate.m */; };
 		F8B311F71E5D673600AC429A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B311F61E5D673600AC429A /* ViewController.m */; };
 		F8B311FA1E5D673600AC429A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B311F81E5D673600AC429A /* Main.storyboard */; };
 		F8B311FC1E5D673600AC429A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B311FB1E5D673600AC429A /* Assets.xcassets */; };
-		F8B311FF1E5D673600AC429A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B311FD1E5D673600AC429A /* LaunchScreen.storyboard */; };
+		F8B312091E5D6F5600AC429A /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B312081E5D6F5600AC429A /* BannerView.m */; };
+		F8B3120C1E5D77F800AC429A /* BannerX.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B3120B1E5D77F800AC429A /* BannerX.m */; };
+		F8B312101E5D92FF00AC429A /* UIImageView+ImgUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B3120F1E5D92FF00AC429A /* UIImageView+ImgUtil.m */; };
+		F8B312131E5D932B00AC429A /* UICollectionViewCell+SetNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B312121E5D932B00AC429A /* UICollectionViewCell+SetNormal.m */; };
+		F8B312171E5D938500AC429A /* HandlerMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B312161E5D938500AC429A /* HandlerMsg.m */; };
+		F8B312221E5D93DD00AC429A /* Api.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B3121A1E5D93DD00AC429A /* Api.m */; };
+		F8B312231E5D93DD00AC429A /* DES3Util.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B3121C1E5D93DD00AC429A /* DES3Util.m */; };
+		F8B312241E5D93DD00AC429A /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B3121E1E5D93DD00AC429A /* GTMBase64.m */; };
+		F8B312281E5D944B00AC429A /* UHUDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B312271E5D944B00AC429A /* UHUDUtil.m */; };
+		F8B3122B1E5D96D200AC429A /* ToolConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B3122A1E5D96D200AC429A /* ToolConfig.m */; };
+		F8DAF0411E5E95AC0068CF21 /* UITableViewCell+SetNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DAF0401E5E95AC0068CF21 /* UITableViewCell+SetNormal.m */; };
+		F8DAF0661E5E963A0068CF21 /* Dispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DAF0471E5E963A0068CF21 /* Dispatcher.m */; };
+		F8DAF0671E5E963A0068CF21 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DAF04B1E5E963A0068CF21 /* Action.m */; };
+		F8DAF0681E5E963A0068CF21 /* ActionsCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DAF04D1E5E963A0068CF21 /* ActionsCreator.m */; };
+		F8DAF0691E5E963A0068CF21 /* ActionsCreatorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DAF04F1E5E963A0068CF21 /* ActionsCreatorFactory.m */; };
+		F8DAF06A1E5E963A0068CF21 /* INormalAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DAF0521E5E963A0068CF21 /* INormalAction.m */; };
+		F8DAF06B1E5E963A0068CF21 /* NormalAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DAF0541E5E963A0068CF21 /* NormalAction.m */; };
+		F8DAF06C1E5E963A0068CF21 /* NormalActionCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DAF0561E5E963A0068CF21 /* NormalActionCreator.m */; };
+		F8DAF06D1E5E963A0068CF21 /* NormalActionEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DAF0581E5E963A0068CF21 /* NormalActionEntity.m */; };
+		F8DAF06E1E5E963A0068CF21 /* NormalDataActionEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DAF05A1E5E963A0068CF21 /* NormalDataActionEntity.m */; };
+		F8DAF06F1E5E963A0068CF21 /* NormalDataStoreEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DAF05D1E5E963A0068CF21 /* NormalDataStoreEvent.m */; };
+		F8DAF0701E5E963A0068CF21 /* NormalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DAF05F1E5E963A0068CF21 /* NormalStore.m */; };
+		F8DAF0711E5E963A0068CF21 /* NormalStoreEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DAF0611E5E963A0068CF21 /* NormalStoreEvent.m */; };
+		F8DAF0721E5E963A0068CF21 /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DAF0631E5E963A0068CF21 /* Store.m */; };
+		F8DAF0731E5E963A0068CF21 /* StoreChangeEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F8DAF0651E5E963A0068CF21 /* StoreChangeEvent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		265C2DF016D9E07273985261 /* Pods-etool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-etool.release.xcconfig"; path = "Pods/Target Support Files/Pods-etool/Pods-etool.release.xcconfig"; sourceTree = "<group>"; };
+		C7F20020D73775D5B650268B /* Pods_etool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_etool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57773A44088713B2042B011 /* Pods-etool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-etool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-etool/Pods-etool.debug.xcconfig"; sourceTree = "<group>"; };
 		F8B311EC1E5D673600AC429A /* etool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = etool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B311F01E5D673600AC429A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8B311F21E5D673600AC429A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -24,8 +52,64 @@
 		F8B311F61E5D673600AC429A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F8B311F91E5D673600AC429A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8B311FB1E5D673600AC429A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F8B311FE1E5D673600AC429A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8B312001E5D673600AC429A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B312071E5D6F5600AC429A /* BannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerView.h; sourceTree = "<group>"; };
+		F8B312081E5D6F5600AC429A /* BannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerView.m; sourceTree = "<group>"; };
+		F8B3120A1E5D77F800AC429A /* BannerX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerX.h; sourceTree = "<group>"; };
+		F8B3120B1E5D77F800AC429A /* BannerX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerX.m; sourceTree = "<group>"; };
+		F8B3120E1E5D92FF00AC429A /* UIImageView+ImgUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImgUtil.h"; sourceTree = "<group>"; };
+		F8B3120F1E5D92FF00AC429A /* UIImageView+ImgUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImgUtil.m"; sourceTree = "<group>"; };
+		F8B312111E5D932B00AC429A /* UICollectionViewCell+SetNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+SetNormal.h"; sourceTree = "<group>"; };
+		F8B312121E5D932B00AC429A /* UICollectionViewCell+SetNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+SetNormal.m"; sourceTree = "<group>"; };
+		F8B312151E5D938500AC429A /* HandlerMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandlerMsg.h; sourceTree = "<group>"; };
+		F8B312161E5D938500AC429A /* HandlerMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandlerMsg.m; sourceTree = "<group>"; };
+		F8B312191E5D93DD00AC429A /* Api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Api.h; sourceTree = "<group>"; };
+		F8B3121A1E5D93DD00AC429A /* Api.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Api.m; sourceTree = "<group>"; };
+		F8B3121B1E5D93DD00AC429A /* DES3Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DES3Util.h; sourceTree = "<group>"; };
+		F8B3121C1E5D93DD00AC429A /* DES3Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DES3Util.m; sourceTree = "<group>"; };
+		F8B3121D1E5D93DD00AC429A /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		F8B3121E1E5D93DD00AC429A /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		F8B3121F1E5D93DD00AC429A /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		F8B312201E5D93DD00AC429A /* LoadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadDelegate.h; sourceTree = "<group>"; };
+		F8B312211E5D93DD00AC429A /* OpeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeDelegate.h; sourceTree = "<group>"; };
+		F8B312261E5D944B00AC429A /* UHUDUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UHUDUtil.h; sourceTree = "<group>"; };
+		F8B312271E5D944B00AC429A /* UHUDUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UHUDUtil.m; sourceTree = "<group>"; };
+		F8B312291E5D96D200AC429A /* ToolConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolConfig.h; sourceTree = "<group>"; };
+		F8B3122A1E5D96D200AC429A /* ToolConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolConfig.m; sourceTree = "<group>"; };
+		F8B3122C1E5D96EE00AC429A /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		F8B3122D1E5D974000AC429A /* tool.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tool.pch; sourceTree = "<group>"; };
+		F8DAF03F1E5E95AC0068CF21 /* UITableViewCell+SetNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+SetNormal.h"; sourceTree = "<group>"; };
+		F8DAF0401E5E95AC0068CF21 /* UITableViewCell+SetNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+SetNormal.m"; sourceTree = "<group>"; };
+		F8DAF0441E5E963A0068CF21 /* IFluxBaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFluxBaseHelper.h; sourceTree = "<group>"; };
+		F8DAF0461E5E963A0068CF21 /* Dispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dispatcher.h; sourceTree = "<group>"; };
+		F8DAF0471E5E963A0068CF21 /* Dispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dispatcher.m; sourceTree = "<group>"; };
+		F8DAF04A1E5E963A0068CF21 /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		F8DAF04B1E5E963A0068CF21 /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
+		F8DAF04C1E5E963A0068CF21 /* ActionsCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionsCreator.h; sourceTree = "<group>"; };
+		F8DAF04D1E5E963A0068CF21 /* ActionsCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionsCreator.m; sourceTree = "<group>"; };
+		F8DAF04E1E5E963A0068CF21 /* ActionsCreatorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionsCreatorFactory.h; sourceTree = "<group>"; };
+		F8DAF04F1E5E963A0068CF21 /* ActionsCreatorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionsCreatorFactory.m; sourceTree = "<group>"; };
+		F8DAF0501E5E963A0068CF21 /* IActionEntityBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IActionEntityBuilder.h; sourceTree = "<group>"; };
+		F8DAF0511E5E963A0068CF21 /* INormalAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INormalAction.h; sourceTree = "<group>"; };
+		F8DAF0521E5E963A0068CF21 /* INormalAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INormalAction.m; sourceTree = "<group>"; };
+		F8DAF0531E5E963A0068CF21 /* NormalAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalAction.h; sourceTree = "<group>"; };
+		F8DAF0541E5E963A0068CF21 /* NormalAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalAction.m; sourceTree = "<group>"; };
+		F8DAF0551E5E963A0068CF21 /* NormalActionCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalActionCreator.h; sourceTree = "<group>"; };
+		F8DAF0561E5E963A0068CF21 /* NormalActionCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalActionCreator.m; sourceTree = "<group>"; };
+		F8DAF0571E5E963A0068CF21 /* NormalActionEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalActionEntity.h; sourceTree = "<group>"; };
+		F8DAF0581E5E963A0068CF21 /* NormalActionEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalActionEntity.m; sourceTree = "<group>"; };
+		F8DAF0591E5E963A0068CF21 /* NormalDataActionEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalDataActionEntity.h; sourceTree = "<group>"; };
+		F8DAF05A1E5E963A0068CF21 /* NormalDataActionEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalDataActionEntity.m; sourceTree = "<group>"; };
+		F8DAF05C1E5E963A0068CF21 /* NormalDataStoreEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalDataStoreEvent.h; sourceTree = "<group>"; };
+		F8DAF05D1E5E963A0068CF21 /* NormalDataStoreEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalDataStoreEvent.m; sourceTree = "<group>"; };
+		F8DAF05E1E5E963A0068CF21 /* NormalStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalStore.h; sourceTree = "<group>"; };
+		F8DAF05F1E5E963A0068CF21 /* NormalStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalStore.m; sourceTree = "<group>"; };
+		F8DAF0601E5E963A0068CF21 /* NormalStoreEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalStoreEvent.h; sourceTree = "<group>"; };
+		F8DAF0611E5E963A0068CF21 /* NormalStoreEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalStoreEvent.m; sourceTree = "<group>"; };
+		F8DAF0621E5E963A0068CF21 /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		F8DAF0631E5E963A0068CF21 /* Store.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		F8DAF0641E5E963A0068CF21 /* StoreChangeEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreChangeEvent.h; sourceTree = "<group>"; };
+		F8DAF0651E5E963A0068CF21 /* StoreChangeEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreChangeEvent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +117,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F2FD98F9D71BF9472EB53B4 /* Pods_etool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		123CD19B321F2312E70A825F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7F20020D73775D5B650268B /* Pods_etool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A510A3CB3F70A9CFAA2108A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D57773A44088713B2042B011 /* Pods-etool.debug.xcconfig */,
+				265C2DF016D9E07273985261 /* Pods-etool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F8B311E31E5D673600AC429A = {
 			isa = PBXGroup;
 			children = (
 				F8B311EE1E5D673600AC429A /* etool */,
 				F8B311ED1E5D673600AC429A /* Products */,
+				4A510A3CB3F70A9CFAA2108A /* Pods */,
+				123CD19B321F2312E70A825F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +162,20 @@
 		F8B311EE1E5D673600AC429A /* etool */ = {
 			isa = PBXGroup;
 			children = (
+				F8DAF0421E5E963A0068CF21 /* f */,
+				F8B312251E5D944400AC429A /* view */,
+				F8B312181E5D93DD00AC429A /* network */,
+				F8B312141E5D938000AC429A /* t */,
+				F8B3120D1E5D92C500AC429A /* category */,
+				F8B312061E5D6F3C00AC429A /* banner */,
 				F8B311F21E5D673600AC429A /* AppDelegate.h */,
 				F8B311F31E5D673600AC429A /* AppDelegate.m */,
 				F8B311F51E5D673600AC429A /* ViewController.h */,
 				F8B311F61E5D673600AC429A /* ViewController.m */,
 				F8B311F81E5D673600AC429A /* Main.storyboard */,
 				F8B311FB1E5D673600AC429A /* Assets.xcassets */,
-				F8B311FD1E5D673600AC429A /* LaunchScreen.storyboard */,
 				F8B312001E5D673600AC429A /* Info.plist */,
+				F8B3122D1E5D974000AC429A /* tool.pch */,
 				F8B311EF1E5D673600AC429A /* Supporting Files */,
 			);
 			path = etool;
@@ -79,6 +189,144 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F8B312061E5D6F3C00AC429A /* banner */ = {
+			isa = PBXGroup;
+			children = (
+				F8B3120A1E5D77F800AC429A /* BannerX.h */,
+				F8B3120B1E5D77F800AC429A /* BannerX.m */,
+				F8B312071E5D6F5600AC429A /* BannerView.h */,
+				F8B312081E5D6F5600AC429A /* BannerView.m */,
+			);
+			path = banner;
+			sourceTree = "<group>";
+		};
+		F8B3120D1E5D92C500AC429A /* category */ = {
+			isa = PBXGroup;
+			children = (
+				F8DAF03F1E5E95AC0068CF21 /* UITableViewCell+SetNormal.h */,
+				F8DAF0401E5E95AC0068CF21 /* UITableViewCell+SetNormal.m */,
+				F8B312111E5D932B00AC429A /* UICollectionViewCell+SetNormal.h */,
+				F8B312121E5D932B00AC429A /* UICollectionViewCell+SetNormal.m */,
+				F8B3120E1E5D92FF00AC429A /* UIImageView+ImgUtil.h */,
+				F8B3120F1E5D92FF00AC429A /* UIImageView+ImgUtil.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		F8B312141E5D938000AC429A /* t */ = {
+			isa = PBXGroup;
+			children = (
+				F8B3122C1E5D96EE00AC429A /* Global.h */,
+				F8B312151E5D938500AC429A /* HandlerMsg.h */,
+				F8B312161E5D938500AC429A /* HandlerMsg.m */,
+				F8B312291E5D96D200AC429A /* ToolConfig.h */,
+				F8B3122A1E5D96D200AC429A /* ToolConfig.m */,
+			);
+			path = t;
+			sourceTree = "<group>";
+		};
+		F8B312181E5D93DD00AC429A /* network */ = {
+			isa = PBXGroup;
+			children = (
+				F8B312191E5D93DD00AC429A /* Api.h */,
+				F8B3121A1E5D93DD00AC429A /* Api.m */,
+				F8B3121B1E5D93DD00AC429A /* DES3Util.h */,
+				F8B3121C1E5D93DD00AC429A /* DES3Util.m */,
+				F8B3121D1E5D93DD00AC429A /* GTMBase64.h */,
+				F8B3121E1E5D93DD00AC429A /* GTMBase64.m */,
+				F8B3121F1E5D93DD00AC429A /* GTMDefines.h */,
+				F8B312201E5D93DD00AC429A /* LoadDelegate.h */,
+				F8B312211E5D93DD00AC429A /* OpeDelegate.h */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		F8B312251E5D944400AC429A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F8B312261E5D944B00AC429A /* UHUDUtil.h */,
+				F8B312271E5D944B00AC429A /* UHUDUtil.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F8DAF0421E5E963A0068CF21 /* f */ = {
+			isa = PBXGroup;
+			children = (
+				F8DAF0431E5E963A0068CF21 /* base */,
+				F8DAF0451E5E963A0068CF21 /* dispatch */,
+				F8DAF0481E5E963A0068CF21 /* flux */,
+			);
+			path = f;
+			sourceTree = "<group>";
+		};
+		F8DAF0431E5E963A0068CF21 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				F8DAF0441E5E963A0068CF21 /* IFluxBaseHelper.h */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		F8DAF0451E5E963A0068CF21 /* dispatch */ = {
+			isa = PBXGroup;
+			children = (
+				F8DAF0461E5E963A0068CF21 /* Dispatcher.h */,
+				F8DAF0471E5E963A0068CF21 /* Dispatcher.m */,
+			);
+			path = dispatch;
+			sourceTree = "<group>";
+		};
+		F8DAF0481E5E963A0068CF21 /* flux */ = {
+			isa = PBXGroup;
+			children = (
+				F8DAF0491E5E963A0068CF21 /* action */,
+				F8DAF05B1E5E963A0068CF21 /* store */,
+			);
+			path = flux;
+			sourceTree = "<group>";
+		};
+		F8DAF0491E5E963A0068CF21 /* action */ = {
+			isa = PBXGroup;
+			children = (
+				F8DAF04A1E5E963A0068CF21 /* Action.h */,
+				F8DAF04B1E5E963A0068CF21 /* Action.m */,
+				F8DAF04C1E5E963A0068CF21 /* ActionsCreator.h */,
+				F8DAF04D1E5E963A0068CF21 /* ActionsCreator.m */,
+				F8DAF04E1E5E963A0068CF21 /* ActionsCreatorFactory.h */,
+				F8DAF04F1E5E963A0068CF21 /* ActionsCreatorFactory.m */,
+				F8DAF0501E5E963A0068CF21 /* IActionEntityBuilder.h */,
+				F8DAF0511E5E963A0068CF21 /* INormalAction.h */,
+				F8DAF0521E5E963A0068CF21 /* INormalAction.m */,
+				F8DAF0531E5E963A0068CF21 /* NormalAction.h */,
+				F8DAF0541E5E963A0068CF21 /* NormalAction.m */,
+				F8DAF0551E5E963A0068CF21 /* NormalActionCreator.h */,
+				F8DAF0561E5E963A0068CF21 /* NormalActionCreator.m */,
+				F8DAF0571E5E963A0068CF21 /* NormalActionEntity.h */,
+				F8DAF0581E5E963A0068CF21 /* NormalActionEntity.m */,
+				F8DAF0591E5E963A0068CF21 /* NormalDataActionEntity.h */,
+				F8DAF05A1E5E963A0068CF21 /* NormalDataActionEntity.m */,
+			);
+			path = action;
+			sourceTree = "<group>";
+		};
+		F8DAF05B1E5E963A0068CF21 /* store */ = {
+			isa = PBXGroup;
+			children = (
+				F8DAF05C1E5E963A0068CF21 /* NormalDataStoreEvent.h */,
+				F8DAF05D1E5E963A0068CF21 /* NormalDataStoreEvent.m */,
+				F8DAF05E1E5E963A0068CF21 /* NormalStore.h */,
+				F8DAF05F1E5E963A0068CF21 /* NormalStore.m */,
+				F8DAF0601E5E963A0068CF21 /* NormalStoreEvent.h */,
+				F8DAF0611E5E963A0068CF21 /* NormalStoreEvent.m */,
+				F8DAF0621E5E963A0068CF21 /* Store.h */,
+				F8DAF0631E5E963A0068CF21 /* Store.m */,
+				F8DAF0641E5E963A0068CF21 /* StoreChangeEvent.h */,
+				F8DAF0651E5E963A0068CF21 /* StoreChangeEvent.m */,
+			);
+			path = store;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +334,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8B312031E5D673600AC429A /* Build configuration list for PBXNativeTarget "etool" */;
 			buildPhases = (
+				F742D1A016CD4352B1213067 /* [CP] Check Pods Manifest.lock */,
 				F8B311E81E5D673600AC429A /* Sources */,
 				F8B311E91E5D673600AC429A /* Frameworks */,
 				F8B311EA1E5D673600AC429A /* Resources */,
+				616AE7F7CE4950957B9C92A1 /* [CP] Embed Pods Frameworks */,
+				5342906790CC078802CBFF16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +361,7 @@
 				TargetAttributes = {
 					F8B311EB1E5D673600AC429A = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = B26DDLJVD7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,7 +389,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8B311FF1E5D673600AC429A /* LaunchScreen.storyboard in Resources */,
 				F8B311FC1E5D673600AC429A /* Assets.xcassets in Resources */,
 				F8B311FA1E5D673600AC429A /* Main.storyboard in Resources */,
 			);
@@ -145,12 +396,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5342906790CC078802CBFF16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-etool/Pods-etool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		616AE7F7CE4950957B9C92A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-etool/Pods-etool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F742D1A016CD4352B1213067 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F8B311E81E5D673600AC429A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8DAF0661E5E963A0068CF21 /* Dispatcher.m in Sources */,
+				F8DAF0671E5E963A0068CF21 /* Action.m in Sources */,
+				F8B312091E5D6F5600AC429A /* BannerView.m in Sources */,
+				F8B3122B1E5D96D200AC429A /* ToolConfig.m in Sources */,
+				F8B312281E5D944B00AC429A /* UHUDUtil.m in Sources */,
+				F8DAF0711E5E963A0068CF21 /* NormalStoreEvent.m in Sources */,
+				F8DAF0731E5E963A0068CF21 /* StoreChangeEvent.m in Sources */,
+				F8DAF0721E5E963A0068CF21 /* Store.m in Sources */,
 				F8B311F71E5D673600AC429A /* ViewController.m in Sources */,
+				F8DAF06C1E5E963A0068CF21 /* NormalActionCreator.m in Sources */,
+				F8DAF0681E5E963A0068CF21 /* ActionsCreator.m in Sources */,
+				F8B312241E5D93DD00AC429A /* GTMBase64.m in Sources */,
+				F8B312231E5D93DD00AC429A /* DES3Util.m in Sources */,
+				F8B312101E5D92FF00AC429A /* UIImageView+ImgUtil.m in Sources */,
+				F8DAF06D1E5E963A0068CF21 /* NormalActionEntity.m in Sources */,
+				F8DAF06A1E5E963A0068CF21 /* INormalAction.m in Sources */,
+				F8B3120C1E5D77F800AC429A /* BannerX.m in Sources */,
+				F8B312171E5D938500AC429A /* HandlerMsg.m in Sources */,
+				F8DAF06E1E5E963A0068CF21 /* NormalDataActionEntity.m in Sources */,
+				F8DAF0411E5E95AC0068CF21 /* UITableViewCell+SetNormal.m in Sources */,
+				F8B312131E5D932B00AC429A /* UICollectionViewCell+SetNormal.m in Sources */,
+				F8DAF0701E5E963A0068CF21 /* NormalStore.m in Sources */,
+				F8B312221E5D93DD00AC429A /* Api.m in Sources */,
+				F8DAF06F1E5E963A0068CF21 /* NormalDataStoreEvent.m in Sources */,
+				F8DAF06B1E5E963A0068CF21 /* NormalAction.m in Sources */,
+				F8DAF0691E5E963A0068CF21 /* ActionsCreatorFactory.m in Sources */,
 				F8B311F41E5D673600AC429A /* AppDelegate.m in Sources */,
 				F8B311F11E5D673600AC429A /* main.m in Sources */,
 			);
@@ -165,14 +489,6 @@
 				F8B311F91E5D673600AC429A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F8B311FD1E5D673600AC429A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8B311FE1E5D673600AC429A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -208,6 +524,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = tool.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -253,6 +570,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = tool.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -268,8 +586,12 @@
 		};
 		F8B312041E5D673600AC429A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57773A44088713B2042B011 /* Pods-etool.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B26DDLJVD7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/etool/tool.pch";
 				INFOPLIST_FILE = etool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yidont.etool;
@@ -279,8 +601,12 @@
 		};
 		F8B312051E5D673600AC429A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 265C2DF016D9E07273985261 /* Pods-etool.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B26DDLJVD7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/etool/tool.pch";
 				INFOPLIST_FILE = etool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yidont.etool;
@@ -307,6 +633,7 @@
 				F8B312051E5D673600AC429A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
