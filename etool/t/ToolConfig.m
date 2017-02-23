@@ -7,6 +7,7 @@
 //
 
 #import "ToolConfig.h"
+#import "Api.h"
 @implementation ToolConfig
 static ToolConfig *config;
 

@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0F2FD98F9D71BF9472EB53B4 /* Pods_etool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F20020D73775D5B650268B /* Pods_etool.framework */; };
+		F87102CE1E5ED346007E17DC /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F87102CB1E5ED346007E17DC /* BannerView.m */; };
+		F87102CF1E5ED346007E17DC /* BannerX.m in Sources */ = {isa = PBXBuildFile; fileRef = F87102CD1E5ED346007E17DC /* BannerX.m */; };
 		F8B311F11E5D673600AC429A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B311F01E5D673600AC429A /* main.m */; };
 		F8B311F41E5D673600AC429A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B311F31E5D673600AC429A /* AppDelegate.m */; };
-		F8B311F71E5D673600AC429A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B311F61E5D673600AC429A /* ViewController.m */; };
 		F8B311FA1E5D673600AC429A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B311F81E5D673600AC429A /* Main.storyboard */; };
 		F8B311FC1E5D673600AC429A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B311FB1E5D673600AC429A /* Assets.xcassets */; };
-		F8B312091E5D6F5600AC429A /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B312081E5D6F5600AC429A /* BannerView.m */; };
-		F8B3120C1E5D77F800AC429A /* BannerX.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B3120B1E5D77F800AC429A /* BannerX.m */; };
 		F8B312101E5D92FF00AC429A /* UIImageView+ImgUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B3120F1E5D92FF00AC429A /* UIImageView+ImgUtil.m */; };
 		F8B312131E5D932B00AC429A /* UICollectionViewCell+SetNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B312121E5D932B00AC429A /* UICollectionViewCell+SetNormal.m */; };
 		F8B312171E5D938500AC429A /* HandlerMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B312161E5D938500AC429A /* HandlerMsg.m */; };
@@ -44,19 +43,17 @@
 		265C2DF016D9E07273985261 /* Pods-etool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-etool.release.xcconfig"; path = "Pods/Target Support Files/Pods-etool/Pods-etool.release.xcconfig"; sourceTree = "<group>"; };
 		C7F20020D73775D5B650268B /* Pods_etool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_etool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57773A44088713B2042B011 /* Pods-etool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-etool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-etool/Pods-etool.debug.xcconfig"; sourceTree = "<group>"; };
+		F87102CA1E5ED346007E17DC /* BannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerView.h; sourceTree = "<group>"; };
+		F87102CB1E5ED346007E17DC /* BannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerView.m; sourceTree = "<group>"; };
+		F87102CC1E5ED346007E17DC /* BannerX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerX.h; sourceTree = "<group>"; };
+		F87102CD1E5ED346007E17DC /* BannerX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerX.m; sourceTree = "<group>"; };
 		F8B311EC1E5D673600AC429A /* etool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = etool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B311F01E5D673600AC429A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F8B311F21E5D673600AC429A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8B311F31E5D673600AC429A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F8B311F51E5D673600AC429A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F8B311F61E5D673600AC429A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F8B311F91E5D673600AC429A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8B311FB1E5D673600AC429A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8B312001E5D673600AC429A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8B312071E5D6F5600AC429A /* BannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerView.h; sourceTree = "<group>"; };
-		F8B312081E5D6F5600AC429A /* BannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerView.m; sourceTree = "<group>"; };
-		F8B3120A1E5D77F800AC429A /* BannerX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerX.h; sourceTree = "<group>"; };
-		F8B3120B1E5D77F800AC429A /* BannerX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerX.m; sourceTree = "<group>"; };
 		F8B3120E1E5D92FF00AC429A /* UIImageView+ImgUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImgUtil.h"; sourceTree = "<group>"; };
 		F8B3120F1E5D92FF00AC429A /* UIImageView+ImgUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImgUtil.m"; sourceTree = "<group>"; };
 		F8B312111E5D932B00AC429A /* UICollectionViewCell+SetNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+SetNormal.h"; sourceTree = "<group>"; };
@@ -77,7 +74,6 @@
 		F8B312291E5D96D200AC429A /* ToolConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolConfig.h; sourceTree = "<group>"; };
 		F8B3122A1E5D96D200AC429A /* ToolConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolConfig.m; sourceTree = "<group>"; };
 		F8B3122C1E5D96EE00AC429A /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
-		F8B3122D1E5D974000AC429A /* tool.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tool.pch; sourceTree = "<group>"; };
 		F8DAF03F1E5E95AC0068CF21 /* UITableViewCell+SetNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+SetNormal.h"; sourceTree = "<group>"; };
 		F8DAF0401E5E95AC0068CF21 /* UITableViewCell+SetNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+SetNormal.m"; sourceTree = "<group>"; };
 		F8DAF0441E5E963A0068CF21 /* IFluxBaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFluxBaseHelper.h; sourceTree = "<group>"; };
@@ -141,6 +137,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F87102C91E5ED346007E17DC /* banner */ = {
+			isa = PBXGroup;
+			children = (
+				F87102CA1E5ED346007E17DC /* BannerView.h */,
+				F87102CB1E5ED346007E17DC /* BannerView.m */,
+				F87102CC1E5ED346007E17DC /* BannerX.h */,
+				F87102CD1E5ED346007E17DC /* BannerX.m */,
+			);
+			path = banner;
+			sourceTree = "<group>";
+		};
 		F8B311E31E5D673600AC429A = {
 			isa = PBXGroup;
 			children = (
@@ -166,16 +173,13 @@
 				F8B312251E5D944400AC429A /* view */,
 				F8B312181E5D93DD00AC429A /* network */,
 				F8B312141E5D938000AC429A /* t */,
+				F87102C91E5ED346007E17DC /* banner */,
 				F8B3120D1E5D92C500AC429A /* category */,
-				F8B312061E5D6F3C00AC429A /* banner */,
 				F8B311F21E5D673600AC429A /* AppDelegate.h */,
 				F8B311F31E5D673600AC429A /* AppDelegate.m */,
-				F8B311F51E5D673600AC429A /* ViewController.h */,
-				F8B311F61E5D673600AC429A /* ViewController.m */,
 				F8B311F81E5D673600AC429A /* Main.storyboard */,
 				F8B311FB1E5D673600AC429A /* Assets.xcassets */,
 				F8B312001E5D673600AC429A /* Info.plist */,
-				F8B3122D1E5D974000AC429A /* tool.pch */,
 				F8B311EF1E5D673600AC429A /* Supporting Files */,
 			);
 			path = etool;
@@ -187,17 +191,6 @@
 				F8B311F01E5D673600AC429A /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F8B312061E5D6F3C00AC429A /* banner */ = {
-			isa = PBXGroup;
-			children = (
-				F8B3120A1E5D77F800AC429A /* BannerX.h */,
-				F8B3120B1E5D77F800AC429A /* BannerX.m */,
-				F8B312071E5D6F5600AC429A /* BannerView.h */,
-				F8B312081E5D6F5600AC429A /* BannerView.m */,
-			);
-			path = banner;
 			sourceTree = "<group>";
 		};
 		F8B3120D1E5D92C500AC429A /* category */ = {
@@ -451,26 +444,25 @@
 			files = (
 				F8DAF0661E5E963A0068CF21 /* Dispatcher.m in Sources */,
 				F8DAF0671E5E963A0068CF21 /* Action.m in Sources */,
-				F8B312091E5D6F5600AC429A /* BannerView.m in Sources */,
 				F8B3122B1E5D96D200AC429A /* ToolConfig.m in Sources */,
 				F8B312281E5D944B00AC429A /* UHUDUtil.m in Sources */,
 				F8DAF0711E5E963A0068CF21 /* NormalStoreEvent.m in Sources */,
 				F8DAF0731E5E963A0068CF21 /* StoreChangeEvent.m in Sources */,
 				F8DAF0721E5E963A0068CF21 /* Store.m in Sources */,
-				F8B311F71E5D673600AC429A /* ViewController.m in Sources */,
 				F8DAF06C1E5E963A0068CF21 /* NormalActionCreator.m in Sources */,
 				F8DAF0681E5E963A0068CF21 /* ActionsCreator.m in Sources */,
+				F87102CF1E5ED346007E17DC /* BannerX.m in Sources */,
 				F8B312241E5D93DD00AC429A /* GTMBase64.m in Sources */,
 				F8B312231E5D93DD00AC429A /* DES3Util.m in Sources */,
 				F8B312101E5D92FF00AC429A /* UIImageView+ImgUtil.m in Sources */,
 				F8DAF06D1E5E963A0068CF21 /* NormalActionEntity.m in Sources */,
 				F8DAF06A1E5E963A0068CF21 /* INormalAction.m in Sources */,
-				F8B3120C1E5D77F800AC429A /* BannerX.m in Sources */,
 				F8B312171E5D938500AC429A /* HandlerMsg.m in Sources */,
 				F8DAF06E1E5E963A0068CF21 /* NormalDataActionEntity.m in Sources */,
 				F8DAF0411E5E95AC0068CF21 /* UITableViewCell+SetNormal.m in Sources */,
 				F8B312131E5D932B00AC429A /* UICollectionViewCell+SetNormal.m in Sources */,
 				F8DAF0701E5E963A0068CF21 /* NormalStore.m in Sources */,
+				F87102CE1E5ED346007E17DC /* BannerView.m in Sources */,
 				F8B312221E5D93DD00AC429A /* Api.m in Sources */,
 				F8DAF06F1E5E963A0068CF21 /* NormalDataStoreEvent.m in Sources */,
 				F8DAF06B1E5E963A0068CF21 /* NormalAction.m in Sources */,
@@ -591,7 +583,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B26DDLJVD7;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/etool/tool.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = etool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yidont.etool;
@@ -606,7 +598,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B26DDLJVD7;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/etool/tool.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = etool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yidont.etool;

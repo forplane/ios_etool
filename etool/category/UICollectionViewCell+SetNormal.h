@@ -7,6 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Global.h"
 @interface UICollectionViewCell (SetNormal)<ScrollCellDelegate>
 @end

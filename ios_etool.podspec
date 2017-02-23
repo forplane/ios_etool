@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
   # s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
-  s.dependency  = 'AFNetworking'
+  #s.dependencies  = 'SDCycleScrollView', '~> 1.65','MBProgressHUD', '~> 0.9.2','AFNetworking','~> 3.0','MJRefresh', '~> 3.1.12'
 end

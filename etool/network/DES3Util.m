@@ -6,6 +6,7 @@
 #import <CommonCrypto/CommonCryptor.h>
 #import "GTMBase64.h"
 #import <CommonCrypto/CommonDigest.h>
+#import "Global.h"
 @implementation DES3Util
 
 // 加密方法

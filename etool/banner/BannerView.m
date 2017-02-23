@@ -8,6 +8,8 @@
 
 #import "BannerView.h"
 #import "BannerX.h"
+#import "Global.h"
+
 static const int kBannerViewH = 150;//banner的默认高度
 
 
